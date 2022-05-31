@@ -1,5 +1,5 @@
 # Практична робота "Реалізація успадкування"
-Я змоделював **Тварину яку я більш за все боюся – Змія**😉
+Я змоделював **Тварину яку я більш за все боюся – Змія😖😳**
 
 <img src="https://github.com/ppc-ntu-khpi/java-inheritance-DanyloDonets/blob/master/images/Snake.jpg" width="100%"/>
 <img src="https://github.com/ppc-ntu-khpi/java-inheritance-DanyloDonets/blob/master/images/Snake-Diagram.png" width="100%"/>
