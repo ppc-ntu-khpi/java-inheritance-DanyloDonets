@@ -1,0 +1,51 @@
+\hypertarget{_snake_8java_source}{}\doxysection{Snake.\+java}
+\label{_snake_8java_source}\index{C:/Users/endob/Documents/NetBeansProjects/MyAnimals/src/domain/Snake.java@{C:/Users/endob/Documents/NetBeansProjects/MyAnimals/src/domain/Snake.java}}
+\mbox{\hyperlink{_snake_8java}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00001}00001 \textcolor{keyword}{package }domain;}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00008}\mbox{\hyperlink{classdomain_1_1_snake}{00008}} \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{classdomain_1_1_snake}{Snake}} \textcolor{keyword}{extends} \mbox{\hyperlink{classdomain_1_1_reptile}{Reptile}} \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00012}00012     \textcolor{keyword}{private} String kind;}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00016}\mbox{\hyperlink{classdomain_1_1_snake_aa3a270a6eacda1d5b8bc46a82bfd4d58}{00016}}     \textcolor{keyword}{public} \mbox{\hyperlink{classdomain_1_1_snake_aa3a270a6eacda1d5b8bc46a82bfd4d58}{Snake}}(String \mbox{\hyperlink{classdomain_1_1_animal_aa404f820cb6a0fdfb51dc488a8c9f871}{name}}, \textcolor{keywordtype}{int} \mbox{\hyperlink{classdomain_1_1_animal_add0bcdbdada90222de53846b585f1e8f}{weith}}, String \mbox{\hyperlink{classdomain_1_1_animal_af827a6bb472c6beade91ae54d7a61e0b}{type}}, String kind) \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00017}00017         this.name = \mbox{\hyperlink{classdomain_1_1_animal_aa404f820cb6a0fdfb51dc488a8c9f871}{name}};}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00018}00018         this.weith = \mbox{\hyperlink{classdomain_1_1_animal_add0bcdbdada90222de53846b585f1e8f}{weith}};}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00019}00019         this.type = \mbox{\hyperlink{classdomain_1_1_animal_af827a6bb472c6beade91ae54d7a61e0b}{type}};}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00020}00020         this.kind = kind;}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00021}00021     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00022}00022     }
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00023}\mbox{\hyperlink{classdomain_1_1_snake_adceffcc0351df2b8448c8db4348a648c}{00023}}     \textcolor{keyword}{public} \mbox{\hyperlink{classdomain_1_1_snake_adceffcc0351df2b8448c8db4348a648c}{Snake}}()\{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00024}00024         \textcolor{keyword}{this}(\textcolor{stringliteral}{"{}Anatoliy"{}},20,\textcolor{stringliteral}{"{}wild"{}},\textcolor{stringliteral}{"{}Anaconda"{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00025}00025     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00026}00026     }
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00027}\mbox{\hyperlink{classdomain_1_1_snake_ad58c54ee9a6b688b3138a87a30873292}{00027}}     \textcolor{keyword}{public} \mbox{\hyperlink{classdomain_1_1_snake_ad58c54ee9a6b688b3138a87a30873292}{Snake}}(String \mbox{\hyperlink{classdomain_1_1_animal_aa404f820cb6a0fdfb51dc488a8c9f871}{name}})\{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00028}00028         \textcolor{keyword}{this}(\mbox{\hyperlink{classdomain_1_1_animal_aa404f820cb6a0fdfb51dc488a8c9f871}{name}},20,\textcolor{stringliteral}{"{}wild"{}},\textcolor{stringliteral}{"{}Anaconda"{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00029}00029     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00033}00033     @Override}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00034}\mbox{\hyperlink{classdomain_1_1_snake_a7e4f4f884a2f1104d5ad90ffdbc76bf7}{00034}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classdomain_1_1_snake_a7e4f4f884a2f1104d5ad90ffdbc76bf7}{hunt}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00035}00035         System.out.println(\textcolor{stringliteral}{"{}Snake is hunting..."{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00036}00036     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00041}00041     @Override}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00042}\mbox{\hyperlink{classdomain_1_1_snake_ad0e2355713b1540effd5cff889cf1d5d}{00042}}     \textcolor{keyword}{public} String \mbox{\hyperlink{classdomain_1_1_snake_ad0e2355713b1540effd5cff889cf1d5d}{toString}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00043}00043         \textcolor{keywordflow}{return} super.toString()+\textcolor{stringliteral}{"{}\(\backslash\)nkind: "{}}+this.kind+\textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)nThis is Snake!"{}}; \textcolor{comment}{//To change body of generated methods, choose Tools | Templates.}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00044}00044     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00048}00048     @Override}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00049}\mbox{\hyperlink{classdomain_1_1_snake_a4ec35f2746262ae8576ef071de068c95}{00049}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classdomain_1_1_snake_a4ec35f2746262ae8576ef071de068c95}{speak}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00050}00050     System.out.println(\textcolor{stringliteral}{"{}Ssssssssssssssssss"{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00051}00051     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00056}00056     @Override}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00057}\mbox{\hyperlink{classdomain_1_1_snake_ac3013fd47f7263f8b116f4738ca32c7d}{00057}}     \textcolor{keyword}{public} \textcolor{keywordtype}{boolean} \mbox{\hyperlink{classdomain_1_1_snake_ac3013fd47f7263f8b116f4738ca32c7d}{tame}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00058}00058         System.out.println(\textcolor{stringliteral}{"{}Snake can tame"{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00059}00059         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00060}00060     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00064}00064     @Override}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00065}\mbox{\hyperlink{classdomain_1_1_snake_a5ffef76715a0519aa66b96fd25ec2166}{00065}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classdomain_1_1_snake_a5ffef76715a0519aa66b96fd25ec2166}{eat}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00066}00066         System.out.println(\textcolor{stringliteral}{"{}Snake is eating..."{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00067}00067     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00071}\mbox{\hyperlink{classdomain_1_1_snake_a3420d6513447a6e948f3c7d7244869fe}{00071}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classdomain_1_1_snake_a3420d6513447a6e948f3c7d7244869fe}{crawl}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00072}00072         System.out.println(\textcolor{stringliteral}{"{}Snake is crawling..."{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00073}00073     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00077}\mbox{\hyperlink{classdomain_1_1_snake_a5eec38968bca264467679b5271185a04}{00077}}     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{classdomain_1_1_snake_a5eec38968bca264467679b5271185a04}{curlUp}}() \{}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00078}00078         System.out.println(\textcolor{stringliteral}{"{}Snake is in curl!"{}});}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00079}00079     \}}
+\DoxyCodeLine{\Hypertarget{_snake_8java_source_l00080}00080 \}}
+
+\end{DoxyCode}
