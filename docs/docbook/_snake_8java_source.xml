@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__snake_8java_source" xml:lang="en-US">
+<title>Snake.java</title>
+<indexterm><primary>C:/Users/endob/Documents/NetBeansProjects/MyAnimals/src/domain/Snake.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__snake_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__snake_8java_source_1l00008"/><link linkend="_classdomain_1_1_snake">00008</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_snake">Snake</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_reptile">Reptile</link>&#32;{
+<anchor xml:id="__snake_8java_source_1l00012"/>00012 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String&#32;kind;
+<anchor xml:id="__snake_8java_source_1l00016"/><link linkend="_classdomain_1_1_snake_1aa3a270a6eacda1d5b8bc46a82bfd4d58">00016</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1aa3a270a6eacda1d5b8bc46a82bfd4d58">Snake</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_classdomain_1_1_animal_1add0bcdbdada90222de53846b585f1e8f">weith</link>,&#32;String&#32;<link linkend="_classdomain_1_1_animal_1af827a6bb472c6beade91ae54d7a61e0b">type</link>,&#32;String&#32;kind)&#32;{
+<anchor xml:id="__snake_8java_source_1l00017"/>00017 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.name&#32;=&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>;
+<anchor xml:id="__snake_8java_source_1l00018"/>00018 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.weith&#32;=&#32;<link linkend="_classdomain_1_1_animal_1add0bcdbdada90222de53846b585f1e8f">weith</link>;
+<anchor xml:id="__snake_8java_source_1l00019"/>00019 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.type&#32;=&#32;<link linkend="_classdomain_1_1_animal_1af827a6bb472c6beade91ae54d7a61e0b">type</link>;
+<anchor xml:id="__snake_8java_source_1l00020"/>00020 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.kind&#32;=&#32;kind;
+<anchor xml:id="__snake_8java_source_1l00021"/>00021 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00022"/>00022 &#32;&#32;&#32;&#32;
+<anchor xml:id="__snake_8java_source_1l00023"/><link linkend="_classdomain_1_1_snake_1adceffcc0351df2b8448c8db4348a648c">00023</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1adceffcc0351df2b8448c8db4348a648c">Snake</link>(){
+<anchor xml:id="__snake_8java_source_1l00024"/>00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">this</emphasis>(<emphasis role="stringliteral">&quot;Anatoliy&quot;</emphasis>,20,<emphasis role="stringliteral">&quot;wild&quot;</emphasis>,<emphasis role="stringliteral">&quot;Anaconda&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00025"/>00025 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00026"/>00026 &#32;&#32;&#32;&#32;
+<anchor xml:id="__snake_8java_source_1l00027"/><link linkend="_classdomain_1_1_snake_1ad58c54ee9a6b688b3138a87a30873292">00027</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1ad58c54ee9a6b688b3138a87a30873292">Snake</link>(String&#32;<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>){
+<anchor xml:id="__snake_8java_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">this</emphasis>(<link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link>,20,<emphasis role="stringliteral">&quot;wild&quot;</emphasis>,<emphasis role="stringliteral">&quot;Anaconda&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00029"/>00029 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00033"/>00033 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__snake_8java_source_1l00034"/><link linkend="_classdomain_1_1_snake_1a7e4f4f884a2f1104d5ad90ffdbc76bf7">00034</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1a7e4f4f884a2f1104d5ad90ffdbc76bf7">hunt</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Snake&#32;is&#32;hunting...&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00036"/>00036 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00041"/>00041 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__snake_8java_source_1l00042"/><link linkend="_classdomain_1_1_snake_1ad0e2355713b1540effd5cff889cf1d5d">00042</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_snake_1ad0e2355713b1540effd5cff889cf1d5d">toString</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00043"/>00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;super.toString()+<emphasis role="stringliteral">&quot;\nkind:&#32;&quot;</emphasis>+this.kind+<emphasis role="stringliteral">&quot;\n\nThis&#32;is&#32;Snake!&quot;</emphasis>;&#32;<emphasis role="comment">//To&#32;change&#32;body&#32;of&#32;generated&#32;methods,&#32;choose&#32;Tools&#32;|&#32;Templates.</emphasis>
+<anchor xml:id="__snake_8java_source_1l00044"/>00044 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00048"/>00048 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__snake_8java_source_1l00049"/><link linkend="_classdomain_1_1_snake_1a4ec35f2746262ae8576ef071de068c95">00049</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1a4ec35f2746262ae8576ef071de068c95">speak</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00050"/>00050 &#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Ssssssssssssssssss&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00051"/>00051 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00056"/>00056 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__snake_8java_source_1l00057"/><link linkend="_classdomain_1_1_snake_1ac3013fd47f7263f8b116f4738ca32c7d">00057</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">boolean</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1ac3013fd47f7263f8b116f4738ca32c7d">tame</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Snake&#32;can&#32;tame&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__snake_8java_source_1l00060"/>00060 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00064"/>00064 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__snake_8java_source_1l00065"/><link linkend="_classdomain_1_1_snake_1a5ffef76715a0519aa66b96fd25ec2166">00065</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1a5ffef76715a0519aa66b96fd25ec2166">eat</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Snake&#32;is&#32;eating...&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00067"/>00067 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00071"/><link linkend="_classdomain_1_1_snake_1a3420d6513447a6e948f3c7d7244869fe">00071</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1a3420d6513447a6e948f3c7d7244869fe">crawl</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00072"/>00072 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Snake&#32;is&#32;crawling...&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00073"/>00073 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00077"/><link linkend="_classdomain_1_1_snake_1a5eec38968bca264467679b5271185a04">00077</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_snake_1a5eec38968bca264467679b5271185a04">curlUp</link>()&#32;{
+<anchor xml:id="__snake_8java_source_1l00078"/>00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Snake&#32;is&#32;in&#32;curl!&quot;</emphasis>);
+<anchor xml:id="__snake_8java_source_1l00079"/>00079 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__snake_8java_source_1l00080"/>00080 }
+</programlisting></section>

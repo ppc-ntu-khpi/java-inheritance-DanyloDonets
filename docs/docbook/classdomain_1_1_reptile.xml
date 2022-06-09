@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_reptile" xml:lang="en-US">
+<title>domain.Reptile Class Reference</title>
+<indexterm><primary>domain.Reptile</primary></indexterm>
+<para>Inheritance diagram for domain.Reptile:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_reptile.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classdomain_1_1_reptile_1af27ed50462afc3f0ba70a2a94535f3e9">hunt</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Клас, який описує рептилію <formalpara><title>Author</title>
+
+<para>Danylo Donets </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para>Reptile::reptile </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__reptile_8java_source_1l00008">8</link> of file <link linkend="__reptile_8java_source">Reptile.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_reptile_1af27ed50462afc3f0ba70a2a94535f3e9"/><section>
+    <title>hunt()</title>
+<indexterm><primary>hunt</primary><secondary>domain.Reptile</secondary></indexterm>
+<indexterm><primary>domain.Reptile</primary><secondary>hunt</secondary></indexterm>
+<para><computeroutput>void domain.Reptile.hunt ( )</computeroutput></para>
+<para>Об&apos;єкт класу <link linkend="_">reptile</link>. Описує як тварина полює </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_snake_1a7e4f4f884a2f1104d5ad90ffdbc76bf7">domain.Snake</link>.</para>
+<para>
+Definition at line <link linkend="__reptile_8java_source_1l00012">12</link> of file <link linkend="__reptile_8java_source">Reptile.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/endob/Documents/NetBeansProjects/MyAnimals/src/domain/<link linkend="__reptile_8java">Reptile.java</link></section>
+</section>

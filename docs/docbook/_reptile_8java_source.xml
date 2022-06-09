@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__reptile_8java_source" xml:lang="en-US">
+<title>Reptile.java</title>
+<indexterm><primary>C:/Users/endob/Documents/NetBeansProjects/MyAnimals/src/domain/Reptile.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__reptile_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__reptile_8java_source_1l00008"/><link linkend="_classdomain_1_1_reptile">00008</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_reptile">Reptile</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_animal">Animal</link>&#32;{
+<anchor xml:id="__reptile_8java_source_1l00012"/><link linkend="_classdomain_1_1_reptile_1af27ed50462afc3f0ba70a2a94535f3e9">00012</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_reptile_1af27ed50462afc3f0ba70a2a94535f3e9">hunt</link>()&#32;{
+<anchor xml:id="__reptile_8java_source_1l00013"/>00013 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(<emphasis role="stringliteral">&quot;Animal&#32;is&#32;hunting&quot;</emphasis>);
+<anchor xml:id="__reptile_8java_source_1l00014"/>00014 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__reptile_8java_source_1l00015"/>00015 }
+</programlisting></section>
