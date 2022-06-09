@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdomain_1_1_animal" xml:lang="en-US">
+<title>domain.Animal Class Reference</title>
+<indexterm><primary>domain.Animal</primary></indexterm>
+<para>Inheritance diagram for domain.Animal:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdomain_1_1_animal.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32">animal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474">eat</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classdomain_1_1_animal_1a0153ab6384bafb8cec3bcb941314ea3e">tame</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdomain_1_1_animal_1a0070dca2022620de6da5c005e04609a6">speak</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871">name</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classdomain_1_1_animal_1add0bcdbdada90222de53846b585f1e8f">weith</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classdomain_1_1_animal_1af827a6bb472c6beade91ae54d7a61e0b">type</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Клас, який описує тварину <formalpara><title>Author</title>
+
+<para>Danylo Donets </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32">Animal::animal</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00008">8</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32"/><section>
+    <title>animal()</title>
+<indexterm><primary>animal</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>animal</secondary></indexterm>
+<para><computeroutput>void domain.Animal.animal ( )</computeroutput></para>
+<para>Конструктор для присвоєння характеристик </para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00022">22</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1aeb4cdcb2e2faa803e125dea86486e474"/><section>
+    <title>eat()</title>
+<indexterm><primary>eat</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>eat</secondary></indexterm>
+<para><computeroutput>void domain.Animal.eat ( )</computeroutput></para>
+<para>Об&apos;єкт класу <link linkend="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32">animal</link>. Описує як тварина їсть </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_snake_1a5ffef76715a0519aa66b96fd25ec2166">domain.Snake</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00030">30</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1a0070dca2022620de6da5c005e04609a6"/><section>
+    <title>speak()</title>
+<indexterm><primary>speak</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>speak</secondary></indexterm>
+<para><computeroutput>void domain.Animal.speak ( )</computeroutput></para>
+<para>Об&apos;єкт класу <link linkend="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32">animal</link>. Описує як тварина розмовляє </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_snake_1a4ec35f2746262ae8576ef071de068c95">domain.Snake</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00042">42</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1a0153ab6384bafb8cec3bcb941314ea3e"/><section>
+    <title>tame()</title>
+<indexterm><primary>tame</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>tame</secondary></indexterm>
+<para><computeroutput>boolean domain.Animal.tame ( )</computeroutput></para>
+<para>Об&apos;єкт класу <link linkend="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32">animal</link>. Описує чи можна тварину приручити </para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_snake_1ac3013fd47f7263f8b116f4738ca32c7d">domain.Snake</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00036">36</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1a1b29e1c4522c9593ac169ea0b113fa07"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String domain.Animal.toString ( )</computeroutput></para>
+<para>Об&apos;єкт класу <link linkend="_classdomain_1_1_animal_1af5481098256ead95c7f3b90473935c32">animal</link>. Отримує характеристики тварини <formalpara><title>Returns</title>
+
+<para>рядок з характеристиками </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_classdomain_1_1_snake_1ad0e2355713b1540effd5cff889cf1d5d">domain.Snake</link>.</para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00050">50</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdomain_1_1_animal_1aa404f820cb6a0fdfb51dc488a8c9f871"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String domain.Animal.name<computeroutput>[protected]</computeroutput></computeroutput></para>
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>– ім&apos;я </para>
+</entry>
+                            </row>
+                            <row>
+<entry>weith</entry><entry>
+<para>– вага </para>
+</entry>
+                            </row>
+                            <row>
+<entry>type</entry><entry>
+<para>– тип\вид </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line <link linkend="__animal_8java_source_1l00014">14</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1af827a6bb472c6beade91ae54d7a61e0b"/><section>
+    <title>type</title>
+<indexterm><primary>type</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>type</secondary></indexterm>
+<para><computeroutput>String domain.Animal.type<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__animal_8java_source_1l00018">18</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<anchor xml:id="_classdomain_1_1_animal_1add0bcdbdada90222de53846b585f1e8f"/><section>
+    <title>weith</title>
+<indexterm><primary>weith</primary><secondary>domain.Animal</secondary></indexterm>
+<indexterm><primary>domain.Animal</primary><secondary>weith</secondary></indexterm>
+<para><computeroutput>int domain.Animal.weith<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__animal_8java_source_1l00016">16</link> of file <link linkend="__animal_8java_source">Animal.java</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+C:/Users/endob/Documents/NetBeansProjects/MyAnimals/src/domain/<link linkend="__animal_8java">Animal.java</link></section>
+</section>
